@@ -42,8 +42,8 @@ jobs:
           submodules: recursive
       - uses: actions/checkout@v4
         with:
-          repository: UniXNU/UniXNU
-          ref: 8542980d02b4d2cc5c32ee3542de1760b2562aac  # local: 用新版 UniXNU，其 build-boot-runtime 支持 gpu_addon=false # Wi-Fi runtime and Data firmware integration
+          repository: wangcoderx/UniXNU
+          ref: e6ba8e4fef3c76b279c8223fa9030939be89fef0  # local: 用新版 UniXNU，其 build-boot-runtime 支持 gpu_addon=false # Wi-Fi runtime and Data firmware integration
           path: UniXNU
           submodules: recursive
       - uses: actions/checkout@v4
