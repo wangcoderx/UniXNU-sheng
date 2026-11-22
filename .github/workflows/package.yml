@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: wangcoderx/UniXNU
-          ref: e6ba8e4fef3c76b279c8223fa9030939be89fef0  # local: 用新版 UniXNU，其 build-boot-runtime 支持 gpu_addon=false # Wi-Fi runtime and Data firmware integration
+          ref: cfaef138dd3fbd8a11787851d4fb695156b44a56
           path: UniXNU
           submodules: recursive
       - uses: actions/checkout@v4
